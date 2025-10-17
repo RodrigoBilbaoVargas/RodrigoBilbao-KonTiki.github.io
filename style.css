@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0d0d0d;
+    color: #f1f1f1;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(90deg, #1a0000, #330000);
+    text-align: center;
+    padding: 30px 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+    letter-spacing: 1px;
+    color: #ff6666;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #ffcccc;
+}
+
+nav {
+    background-color: #1a0000;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #ffcccc;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff4d4d;
+}
+
+section {
+    padding: 30px 20px;
+    width: 85%;
+    margin: 20px auto;
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+}
+
+section h2 {
+    color: #ff6666;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #800000;
+    padding-bottom: 5px;
+}
+
+section .subtitulo {
+    font-size: 1em;
+    color: #ffcccc;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+.img-container {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.img-container img {
+    max-width: 90%;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.img-container img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 25px rgba(255, 0, 0, 0.5);
+}
+
+footer {
+    background-color: #1a0000;
+    text-align: center;
+    padding: 15px;
+    color: #ccc;
+    font-size: 0.9em;
+    border-top: 1px solid #330000;
+}
+
+.con-imagen {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.con-imagen .texto {
+    flex: 2 1 400px;
+}
+
+.con-imagen .img-lado {
+    flex: 1 1 200px;
+    text-align: right;
+}
+
+.img-container-subtitulo {
+    text-align: center;
+    margin-top: 15px;
+    min-height: 150px; 
+    background-color: #1a1a1a; 
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.2);
+}
